@@ -10,7 +10,7 @@ namespace Navigation
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Foo());
         }
 
         protected override void OnStart()

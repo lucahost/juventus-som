@@ -13,9 +13,27 @@ namespace Calculator
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        enum Operations
+        {
+            Plus,
+            Minus,
+            Divide,
+            Multiply
+        }
+
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        public void PlusButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        public void MinusButton_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
